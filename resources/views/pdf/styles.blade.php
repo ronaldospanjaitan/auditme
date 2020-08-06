@@ -1,0 +1,55 @@
+<style>
+.kepala{
+width:100%;
+
+text-align:center;
+padding: 7px;
+}
+.layanan{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: x-large;
+}
+.hr {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.judul{
+	 letter-spacing: 1.5px;
+	   font-weight: 700;
+}
+.info{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+letter-spacing: 0.2px;
+}
+.info1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+letter-spacing: 0.2px;
+font-weight: 500;
+}
+thead{
+	background-color: coral;
+}
+.chart{
+	height: 300px;
+	
+}
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50px;
+}
+</style>

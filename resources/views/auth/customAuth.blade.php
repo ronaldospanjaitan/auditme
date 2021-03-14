@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Login Template</title>
+  <title>Let's Get Started</title>
   <link href="{{ URL::asset('assets/vendor/bootstrap/css/fontFamilyKarla.css')}}" rel="stylesheet">
   <link rel="stylesheet" href="{{ URL::asset('assets/vendor/bootstrap/css/materialdesignicons.css')}}">
   <link rel="stylesheet" href="{{ URL::asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}">

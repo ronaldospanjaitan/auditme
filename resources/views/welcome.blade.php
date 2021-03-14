@@ -213,7 +213,7 @@
             <div class="icon-box ">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4><a href="">Strategic alignment </a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <p>Process that ensures an organization's structure, use of resources (and culture) support its strategy</p>
             </div>
           </div>
 
@@ -221,21 +221,21 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Value delivery </a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <p>The manner in which you design your products such that it gives maximum value to the customer using it</p>
             </div>
           </div>
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
               <h4><a href="">Risk management </a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <p>Identifying, assessing and controlling threats to an organization's capital and earnings.</p>
             </div>
           </div>
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
               <h4><a href="">Performance measurement  </a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <p>Ensuring that a set of activities and outputs meets an organization's goals in an effective and efficient manner.</p>
             </div>
           </div>
 

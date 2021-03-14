@@ -64,7 +64,26 @@
           <li><a href="">Home</a></li>
           <li><a href="">Resource</a></li>
           <li><a href="">Blog</a></li>
-          <li><a href="">Login</a></li>
+          @guest        <li><a href="{{route('login')}}">Login</a></li>
+          @else
+                            <li class="nav-item dropdown">
+                                <a  id="navbarDropdown" class="nav-link dropdown-toggle pt-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->firstName }} <span class="caret"></span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        <span style="color:black;">Logout</span>
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+                        @endguest
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -306,9 +325,9 @@
   <div id="myModal" class="modal fade ">
     <div class="modal-dialog ">
         <div class="modal-content">
-            <div class="modal-header" style="background-color:#ffae42 ;">
-            <h4 class="modal-title" >PO-1 : Assessment Form</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <div class="modal-header" style="background-color:#02094A;">
+            <h4 class="modal-title text-white" >PO-1 : Assessment Form</h4>
+                <button type="button" class="close text-white" data-dismiss="modal" aria-hidden="true">&times;</button>
                 
             </div>
             <div class="modal-body">
@@ -319,6 +338,7 @@
                <li class=" offset-1 pl-1">Pastikan anda mengisi kolom yang tersedia <p><b>tanpa</b>&nbsp;mengosongkan salah satu kolom</p>
                </li>
                <li class=" offset-1 pl-1"><i>Rate scale</i> yang ditetapkan (0,1-4,0) </li>
+               <li class=" offset-1 pl-1"><i>Silahkan cek User Guidelines(?) untuk <p>informasi seputar Form ini </i></li>
                </ol>
                </p>
               
@@ -329,7 +349,7 @@
                
                <p></p>
              
-          <button id="paham" type="button" class="btn btn-success rounded"  data-dismiss="modal">Close</button>
+          <button id="paham" type="button" class="btn btn-success rounded" style="background-color:#02094A;" data-dismiss="modal">Close</button>
         </div>
             </div>
         </div>

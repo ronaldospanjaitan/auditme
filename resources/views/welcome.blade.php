@@ -303,7 +303,7 @@
 
           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic"><img src="assets/img/team/aldo.png" style="height:200px; width:100%;" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/aldo.PNG" style="height:200px; width:100%;" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Ronaldo Subianto Panjaitan</h4>
                 <span>Developer</span>

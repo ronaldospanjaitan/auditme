@@ -3,9 +3,9 @@
 <form method="POST" action="{{ route('register') }}">
     @csrf
                <div class="form-group">
-                <label for="firstName">Full Name</label>
-                <input type="text" name="firstName" id="firstName" class="form-control @error('firstName') is-invalid @enderror " placeholder="Jack">
-                <input type="text" name="lastName" id="lastName" class="form-control @error('lastName') is-invalid @enderror" placeholder="Panjaitan">
+                <label for="firstName">Your Name</label>
+                <input type="text" name="firstName" id="firstName" class="form-control @error('firstName') is-invalid @enderror " placeholder="First Name">
+                <input type="text" name="lastName" id="lastName" class="form-control @error('lastName') is-invalid @enderror" placeholder="Last Name">
                 @error('firstName')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -19,7 +19,7 @@
               </div>
               <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" class="form-control @error('email') is-invalid @enderror" placeholder="email@gmail.com" required>
+                <input type="email" name="email" id="email" class="form-control @error('email') is-invalid @enderror" placeholder="Email Address" required>
                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -28,7 +28,7 @@
               </div>
               <div class="form-group mb-4">
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password" class="form-control @error('password') is-invalid @enderror" placeholder="enter your passsword" required>
+                <input type="password" name="password" id="password" class="form-control @error('password') is-invalid @enderror" placeholder="Enter new passsword" required>
                 @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -41,7 +41,7 @@
                 </div>
               <div class="form-group">
                 <label for="companyName">Company Name</label>
-                <input type="text" name="companyName" id="companyName" class="form-control @error('companyName') is-invalid @enderror" placeholder="PT. Kuliah Enggan DO Tidak Mau">
+                <input type="text" name="companyName" id="companyName" class="form-control @error('companyName') is-invalid @enderror" placeholder="Your Company Name">
                 @error('companyName')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -50,7 +50,7 @@
               </div>
               <div class="form-group">
                 <label for="companyName">Company Address</label>
-                <input type="text" name="companyAddress" id="companyAddress" class="form-control @error('companyAddress') is-invalid @enderror" placeholder="Jl. Dimana mana hatiku senang">
+                <input type="text" name="companyAddress" id="companyAddress" class="form-control @error('companyAddress') is-invalid @enderror" placeholder="Your Address">
                 @error('companyAddress')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
